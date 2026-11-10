@@ -1,0 +1,27 @@
+# Environment & Secrets (NEVER COMMIT)
+.env
+.env.*
+!.env.example
+.secrets
+*.pem
+*.key
+*oauth-token*
+credentials.json
+client_secret*.json
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Temporary & Scratch files
+tmp/
+temp/
+scratch/
+*.log
+*.tmp
+*.bak
